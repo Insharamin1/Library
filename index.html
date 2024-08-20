@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1> 📖 BookNest 📖</h1>
+    <h3>Your cozy corner in the digital world where <b>stories</b> come to life!</h3>
+    <button id="newBookBtn">Add Book</button>
+    
+    <div id="formContainer" class="hidden">
+        <form action="" id="bookForm">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="number" id="pages" placeholder="Number of Pages" required>
+            <label for="read">Read:<input type="checkbox" id="read" name="read" value="read"></label>
+            <button type="submit">Add Book</button>
+        </form>
+    </div>
+
+    <div id="libraryContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
